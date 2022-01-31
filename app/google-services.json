@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "635016654259",
+    "firebase_url": "https://meds-22a24-default-rtdb.firebaseio.com",
+    "project_id": "meds-22a24",
+    "storage_bucket": "meds-22a24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635016654259:android:a3ed40d32d9b1894b6efc6",
+        "android_client_info": {
+          "package_name": "com.MP.meds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635016654259-b57h0u97dg0tfhvpmtu19q8bp4bl41fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBoOZzcm3LtmLrHoxlVYuSeig9E25DNLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635016654259-b57h0u97dg0tfhvpmtu19q8bp4bl41fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

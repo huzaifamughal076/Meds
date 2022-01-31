@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"/>
+
+        <TextView
+            android:id="@+id/recycle_company"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:hint="Company"
+            />
+
+
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"/>
+
+
+        <TextView
+            android:id="@+id/recycle_Medicine"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:hint="Medicine"
+            />
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"/>
+
+        <TextView
+            android:id="@+id/P_code"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:hint="Code"
+            />
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/recycle_qty"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:hint="Qty"
+            />
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/recycle_discount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:hint="Discount"
+            />
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
